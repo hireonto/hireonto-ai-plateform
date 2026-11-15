@@ -1,0 +1,28 @@
+# Dependencies & build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Env files (secrets)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local design files (kept out of the repo)
+design-assets/
+
+# Python (ai/)
+ai/.venv/
+__pycache__/
+.pytest_cache/
