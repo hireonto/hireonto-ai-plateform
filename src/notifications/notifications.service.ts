@@ -76,7 +76,7 @@ export class NotificationsService {
     return this.email.send({
       companyId: params.companyId,
       to: params.to,
-      subject: 'Reset your HireMind password',
+      subject: 'Reset your HireOnto password',
       template: 'password_reset',
       html: `<p>We received a request to reset your password.</p>
       <p><a href="${params.resetUrl}">Choose a new password</a> — this link expires in 1 hour.</p>
@@ -94,7 +94,7 @@ export class NotificationsService {
     return this.email.send({
       companyId: params.companyId,
       to: params.to,
-      subject: `You're invited to ${params.companyName} on HireMind`,
+      subject: `You're invited to ${params.companyName} on HireOnto`,
       template: 'staff_invite',
       html: `<p>You've been invited to join <strong>${params.companyName}</strong> as ${params.role.toLowerCase()}.</p>
       <p><a href="${params.acceptUrl}">Accept invite and set your password</a> — valid for 7 days.</p>`,

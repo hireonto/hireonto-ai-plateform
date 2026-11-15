@@ -107,6 +107,26 @@ export class EnvironmentVariables {
   @IsOptional()
   @IsInt()
   SMTP_PORT?: number;
+
+  @IsOptional()
+  @IsString()
+  SMTP_USER?: string;
+
+  @IsOptional()
+  @IsString()
+  SMTP_PASS?: string;
+
+  @IsOptional()
+  @IsString()
+  SMTP_SECURE?: string;
+
+  @IsOptional()
+  @IsString()
+  RESEND_API_KEY?: string;
+
+  @IsOptional()
+  @IsString()
+  EMAIL_FROM?: string;
 }
 
 export function validateEnv(config: Record<string, unknown>) {

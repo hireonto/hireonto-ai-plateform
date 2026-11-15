@@ -45,7 +45,9 @@ Every deploy runs `npm run railway:predeploy` first: `prisma migrate deploy` + t
 | `LIVEKIT_URL`, `LIVEKIT_API_KEY`, `LIVEKIT_API_SECRET` | from LiveKit Cloud |
 | `LIVEKIT_AGENT_NAME` | must equal `AGENT_NAME` on the AI services |
 | `S3_ENDPOINT`, `S3_BUCKET`, `S3_ACCESS_KEY`, `S3_SECRET_KEY`, `S3_REGION` | your bucket |
-| `EMAIL_PROVIDER`, `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, `EMAIL_FROM` | your SMTP provider |
+| `EMAIL_PROVIDER` | `resend` (HTTPS API, recommended on Railway) or `smtp` |
+| `RESEND_API_KEY`, `EMAIL_FROM` | for `resend`: API key + a sender on your verified domain, e.g. `HireOnto <no-reply@hireonto.com>` |
+| `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, `EMAIL_FROM` | for `smtp`, e.g. Gmail: `smtp.gmail.com`, `587`, `false`, your address, a Google App Password |
 | `BOOTSTRAP_COMPANY_NAME`, `BOOTSTRAP_ADMIN_EMAIL`, `BOOTSTRAP_ADMIN_PASSWORD` | first admin (password ≥ 12 chars) |
 | Google / Microsoft / Twilio keys | optional; set OAuth redirect URIs to `https://api.your-domain.com/integrations/.../callback` |
 

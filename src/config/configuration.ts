@@ -58,11 +58,21 @@ export default () => ({
     recordingDays: parseInt(process.env.RECORDING_RETENTION_DAYS ?? '30', 10),
   },
   email: {
-    provider: process.env.EMAIL_PROVIDER ?? 'smtp',
-    from: process.env.EMAIL_FROM ?? 'HireMind <no-reply@hiremind.local>',
+    // smtp | resend. Resend sends over HTTPS, so it works where outbound SMTP ports are blocked.
+    provider: (process.env.EMAIL_PROVIDER ?? 'smtp').trim().toLowerCase(),
+    from: process.env.EMAIL_FROM ?? 'HireOnto <no-reply@hireonto.com>',
     smtp: {
       host: process.env.SMTP_HOST ?? 'localhost',
       port: parseInt(process.env.SMTP_PORT ?? '1025', 10),
+      // Defaults to implicit TLS on 465; 587/25 upgrade with STARTTLS.
+      secure: process.env.SMTP_SECURE
+        ? process.env.SMTP_SECURE === 'true'
+        : process.env.SMTP_PORT === '465',
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASS,
+    },
+    resend: {
+      apiKey: process.env.RESEND_API_KEY,
     },
   },
 });

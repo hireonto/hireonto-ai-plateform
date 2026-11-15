@@ -50,6 +50,11 @@ import { UsersModule } from './users/users.module';
             ? { target: 'pino-pretty', options: { singleLine: true } }
             : undefined,
         autoLogging: false,
+        // Logs attach request headers; never store bearer tokens or session cookies there.
+        redact: {
+          paths: ['req.headers.authorization', 'req.headers.cookie', 'res.headers["set-cookie"]'],
+          censor: '[Redacted]',
+        },
       },
     }),
     ThrottlerModule.forRoot([
