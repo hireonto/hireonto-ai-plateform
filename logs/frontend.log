@@ -1,0 +1,11 @@
+
+> frontend@0.0.0 dev
+> vite
+
+
+  VITE v8.3.5  ready in 185 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://192.168.1.33:3000/  en0
+10:39:48 PM [vite] (client) [console.warn] W1114 17:09:48.444999 2195520 gl_context.cc:1135] OpenGL error checking is disabled
+10:40:03 PM [vite] (client) [console.warn] Abort connection attempt due to user initiated disconnect { room: "", roomID: undefined, participant: "", participantID: "" }

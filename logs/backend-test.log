@@ -1,0 +1,186 @@
+
+> hiremind-backend@0.0.1 start:dev
+> nest start --watch
+
+[2J[3J[H[[90m8:24:45 PM[0m] Starting compilation in watch mode...
+
+[[90m8:24:50 PM[0m] Found 0 errors. Watching for file changes.
+
+(node:95836) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[20:24:52.140] INFO (96101): Starting Nest application... {"context":"NestFactory"}
+[20:24:52.141] INFO (96101): PrismaModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): PassportModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): ThrottlerModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): AuditModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): DiscoveryModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): WebhooksModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): SttModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): BullModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): BullModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): StorageModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): AuditApiModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): JwtModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): NotificationsModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): TenantsModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): ShortlistModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): ReviewsModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): AnalyticsModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): CodingModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): ProctoringModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): AiClientModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): AppModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): BullModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): BullModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): BullModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): AuthModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): SessionsModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): RealtimeModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): JobsModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): MediaModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): UsersModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): EvaluationModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): PrivacyModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): InterviewsModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): CandidatesModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): ConversationModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): RecruitmentModule dependencies initialized {"context":"InstanceLoader"}
+[20:24:52.141] INFO (96101): Socket.IO Redis adapter connected {"context":"RedisIoAdapter"}
+[20:24:52.141] INFO (96101): InterviewGateway subscribed to the "heartbeat" message {"context":"WebSocketsController"}
+[20:24:52.141] INFO (96101): InterviewGateway subscribed to the "proctoring_batch" message {"context":"WebSocketsController"}
+[20:24:52.141] INFO (96101): InterviewGateway subscribed to the "request_next" message {"context":"WebSocketsController"}
+[20:24:52.141] INFO (96101): RecruiterGateway subscribed to the "watch_interview" message {"context":"WebSocketsController"}
+[20:24:52.141] INFO (96101): RecruiterGateway subscribed to the "dashboard_subscribe" message {"context":"WebSocketsController"}
+[20:24:52.141] INFO (96101): HealthController {/health}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/health, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): AuthController {/auth}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/auth/staff/login, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/auth/staff/refresh, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/auth/staff/accept-invite, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/auth/staff/password-reset/request, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/auth/staff/password-reset/confirm, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/auth/candidate/magic-link, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/auth/candidate/login, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/auth/candidate/interview/:accessToken, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/auth/candidate/interview-login, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): UsersController {/users}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/users/me, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/users, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/users/invite, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): TenantsController {/tenants}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/tenants/current, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/tenants/current/branding, PATCH} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): JobsController {/jobs}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/jobs, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId, PATCH} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/interview-config, PATCH} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/jd/presign, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/question-banks/presign, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): CandidatesController {/}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/candidates, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/candidates/:candidateId, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/candidates/bulk/presign, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/candidates/bulk/confirm, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/candidates/:candidateId/tags, PATCH} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/candidates/:candidateId/notes, PATCH} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): ShortlistController {/jobs/:jobId/shortlist}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/shortlist/auto, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/shortlist/bulk, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/shortlist/:candidateJobId/history, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): InterviewsController {/interviews}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/interviews, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/interviews/jobs/:jobId/from-shortlist, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/interviews/:interviewId/extend, PATCH} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/interviews/:interviewId/cancel, PATCH} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/interviews/:interviewId/resend, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): SessionsController {/sessions/:interviewId}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/sessions/:interviewId/start, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/sessions/:interviewId/next-question, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/sessions/:interviewId/questions/:questionId/answer, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/sessions/:interviewId/questions/:questionId/follow-up, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/sessions/:interviewId/reconnect, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/sessions/:interviewId/finish, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/sessions/:interviewId/stt-token, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): RecruitmentController {/}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/recruitment/plan-features, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/rounds, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/rounds, PATCH} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/sourcing, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/sourcing, PATCH} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/sourcing/ingest, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/sourcing/run, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/jobs/:jobId/schedule/call-campaign, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/candidate-jobs/:candidateJobId/decision, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/decisions/:token, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/candidate-jobs/:candidateJobId/decision-invite, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/recruit/decide/:token, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/recruit/decide/:token, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/candidate/meet/:accessToken, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): IntegrationsController {/integrations}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/integrations/status, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/integrations/google/connect, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/integrations/google/callback, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/integrations/microsoft/connect, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/integrations/microsoft/callback, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/integrations/:provider/disconnect, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): TwilioWebhookController {/webhooks/twilio}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/webhooks/twilio/outbound, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/webhooks/twilio/gather, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/webhooks/twilio/status, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): ConversationController {/sessions/:interviewId/conversation}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/sessions/:interviewId/conversation/start, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/sessions/:interviewId/conversation/ensure-agent, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/sessions/:interviewId/conversation/chat, POST} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): TranscriptController {/interviews/:interviewId}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/interviews/:interviewId/plan, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/interviews/:interviewId/transcript, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): InternalInterviewController {/internal/interviews/:interviewId}: {"context":"RoutesResolver"}
+[20:24:52.141] INFO (96101): Mapped {/internal/interviews/:interviewId/context, GET} route {"context":"RouterExplorer"}
+[20:24:52.141] INFO (96101): Mapped {/internal/interviews/:interviewId/turns, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/internal/interviews/:interviewId/proctoring, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/internal/interviews/:interviewId/complete, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): EvaluationController {/interviews/:interviewId/evaluation}: {"context":"RoutesResolver"}
+[20:24:52.142] INFO (96101): Mapped {/interviews/:interviewId/evaluation/trigger, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/interviews/:interviewId/evaluation, GET} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/interviews/:interviewId/evaluation/override, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): ProctoringController {/interviews/:interviewId/proctoring}: {"context":"RoutesResolver"}
+[20:24:52.142] INFO (96101): Mapped {/interviews/:interviewId/proctoring/events, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/interviews/:interviewId/proctoring/timeline, GET} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): CodingController {/sessions/:interviewId/coding}: {"context":"RoutesResolver"}
+[20:24:52.142] INFO (96101): Mapped {/sessions/:interviewId/coding/answers/:answerId/run, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/sessions/:interviewId/coding/answers/:answerId/submit, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): MediaController {/sessions/:interviewId/media}: {"context":"RoutesResolver"}
+[20:24:52.142] INFO (96101): Mapped {/sessions/:interviewId/media/chunks/presign, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/sessions/:interviewId/media/chunks/confirm, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/sessions/:interviewId/media/snapshots/presign, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/sessions/:interviewId/media/snapshots, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/sessions/:interviewId/media/playback, GET} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): SttController {/ai/stt}: {"context":"RoutesResolver"}
+[20:24:52.142] INFO (96101): Mapped {/ai/stt/*, ALL} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): ReviewsController {/}: {"context":"RoutesResolver"}
+[20:24:52.142] INFO (96101): Mapped {/interviews/:interviewId/reviews, GET} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/interviews/:interviewId/reviews, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/interviews/:interviewId/guest-links, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/guest/reviews, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): AnalyticsController {/analytics}: {"context":"RoutesResolver"}
+[20:24:52.142] INFO (96101): Mapped {/analytics/funnel, GET} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/analytics/jobs, GET} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/analytics/recruiters, GET} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/analytics/integrity, GET} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): AuditController {/audit}: {"context":"RoutesResolver"}
+[20:24:52.142] INFO (96101): Mapped {/audit, GET} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): PrivacyController {/privacy}: {"context":"RoutesResolver"}
+[20:24:52.142] INFO (96101): Mapped {/privacy/retention/run, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/privacy/candidates/:candidateId/export, GET} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Mapped {/privacy/candidates/:candidateId, DELETE} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): WebhooksController {/webhooks}: {"context":"RoutesResolver"}
+[20:24:52.142] INFO (96101): Mapped {/webhooks/ai, POST} route {"context":"RouterExplorer"}
+[20:24:52.142] INFO (96101): Nest application successfully started {"context":"NestApplication"}
+[20:24:52.142] INFO (96101): HireMind API → http://localhost:3001
+[20:24:52.142] INFO (96101): Swagger UI → http://localhost:3001/docs
